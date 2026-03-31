@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Generator",
+    "description": "Generate blog posts, ads, and social media content using AI automation.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited content generation",
+      "Multiple writing tones",
+      "SEO optimized output",
+      "Supports 20+ languages"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png"
+  },
+  {
+    "id": 2,
+    "name": "Canva Social Media Templates Pack",
+    "description": "Editable Canva templates for Instagram, Facebook, and ads.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "500+ templates",
+      "Fully customizable",
+      "Drag & drop editing",
+      "Commercial use license"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+  },
+  {
+    "id": 3,
+    "name": "Website UI Kit (Figma)",
+    "description": "Modern UI design system for websites and apps.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "100+ UI components",
+      "Auto layout ready",
+      "Responsive design",
+      "Figma compatible"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968703.png"
+  },
+  {
+    "id": 4,
+    "name": "SEO Tools SaaS",
+    "description": "All-in-one SEO analysis and keyword research platform.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Keyword research",
+      "Competitor analysis",
+      "Backlink tracking",
+      "Site audit reports"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2885/2885417.png"
+  },
+  {
+    "id": 5,
+    "name": "Online Course Platform Access",
+    "description": "Access premium courses on business, freelancing, and tech.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ video courses",
+      "Downloadable resources",
+      "Certificate included",
+      "Lifetime updates"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+  },
+  {
+    "id": 6,
+    "name": "WordPress Plugin Bundle",
+    "description": "Essential plugins for speed, SEO, and security.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "10+ premium plugins",
+      "Regular updates",
+      "Easy installation",
+      "Developer support"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
+  },
+  {
+    "id": 7,
+    "name": "Freelance Starter Kit",
+    "description": "Complete package for starting freelancing career.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Proposal templates",
+      "Client contract samples",
+      "Portfolio guide",
+      "Pricing strategy"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 8,
+    "name": "Email Marketing SaaS",
+    "description": "Automate email campaigns and customer engagement.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Email automation",
+      "Drag & drop builder",
+      "Analytics dashboard",
+      "Subscriber management"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/561/561127.png"
+  },
+  {
+    "id": 9,
+    "name": "Stock Photo Subscription",
+    "description": "Access millions of royalty-free images and videos.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "High-resolution images",
+      "Commercial license",
+      "Unlimited downloads",
+      "Weekly updates"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png"
+  },
+  {
+    "id": 10,
+    "name": "AI Prompt Pack Bundle",
+    "description": "Pre-built prompts for ChatGPT, Midjourney, and AI tools.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "trending",
+    "tagType": "popular",
+    "features": [
+      "1000+ prompts",
+      "Multiple categories",
+      "Ready to use",
+      "Regular updates"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712035.png"
+  }
+]
