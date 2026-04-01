@@ -42,7 +42,7 @@ function App() {
 
       {activeTab === "Products" && <Tools tools={tools} carts={carts} setCarts={setCarts}/>}
 
-      {activeTab === "Cart" && <Cart carts={carts}/>}
+      {activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts}/>}
 
       
     </>
