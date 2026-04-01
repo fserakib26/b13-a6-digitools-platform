@@ -12,7 +12,7 @@ const Footer = () => {
                     <h2 className='text-4xl font-bold pb-5'>DigiTools</h2>
                     <p className='text-center lg:text-left '>Premium digital tools for creators,<br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
                 </div>
-                <div>
+                <div className='text-center lg:text-left pt-10 lg:pt-0'>
                     <h3 className='pb-8 font-bold text-2xl'>Product</h3>
                     <div className='flex flex-col space-y-3'>
                         <a href="">Features</a>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                     
                 </div>
-                <div>
+                <div className='text-center lg:text-left pt-10 lg:pt-0'>
                     <h3 className='pb-8 font-bold text-2xl'>Company</h3>
                     <div className='flex flex-col space-y-3'>
                         <a href="">About</a>
@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     
                 </div>
-                <div>
+                <div className='text-center lg:text-left pt-10 lg:pt-0'>
                     <h3 className='pb-8 font-bold text-2xl'>Resources</h3>
                     <div className='flex flex-col space-y-3'>
                         <a href="">Documentation</a>
@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                     
                 </div>
-                <div>
+                <div className='text-center lg:text-left pt-10 lg:pt-0'>
                     <h3 className='pb-8 font-bold text-2xl'>Social Links</h3>
                     <div className='flex space-x-4 lg:items-start  items-center'>
                         <div className='bg-white rounded-full h-10 w-10 text-[#101727] flex justify-center items-center'>

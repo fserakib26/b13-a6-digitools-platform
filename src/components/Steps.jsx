@@ -18,7 +18,7 @@ const Steps = () => {
                 <p>required to get started.</p>
             </div>
 
-            <div className='relative border-2 border-gray-300 shadow rounded-2xl flex flex-col justify-center items-center'>
+            <div className='relative border-2 border-gray-300 shadow rounded-2xl flex flex-col justify-center items-center py-15'>
                 <span className='absolute top-4 right-7 bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full h-10 w-10 flex justify-center items-center text-white'>02</span>
                 <div className='w-20 h-20 mb-4 rounded-full p-4 bg-[#4f39f625]'>
                     <img className='w-full h-full' src="/assets/package.png" alt="" />
@@ -28,7 +28,7 @@ const Steps = () => {
                 <p>that fit your needs.</p>
             </div>
 
-            <div className='relative border-2 border-gray-300 shadow rounded-2xl flex flex-col justify-center items-center'>
+            <div className='relative border-2 border-gray-300 shadow rounded-2xl flex flex-col justify-center items-center py-15'>
                 <span className='absolute top-4 right-7 bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full h-10 w-10 flex justify-center items-center text-white'>03</span>
                 <div className='w-20 h-20 mb-4 rounded-full p-4 bg-[#4f39f625]'>
                     <img className='w-full h-full' src="/assets/rocket.png" alt="" />
