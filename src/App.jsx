@@ -35,8 +35,13 @@ function App() {
 
       {/* name of each tab group should be unique */}
       <div className="tabs tabs-box bg-transparent justify-center">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" onClick={()=>setActiveTab("Products")} defaultChecked />
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Cart (0)" onClick={()=>setActiveTab("Cart")} />
+        <input type="radio" name="my_tabs_1" aria-label="Products" onClick={()=>setActiveTab("Products")} defaultChecked
+        className={`tab rounded-full w-40 transition-all ${activeTab === "Products" ? "bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white" : "bg-gray-200 text-black"}`}
+        />
+
+        <input type="radio" name="my_tabs_1" aria-label={`Cart (${carts.length})`} onClick={()=>setActiveTab("Cart")} 
+        className={`tab rounded-full w-40 transition-all ${activeTab === "Cart" ? "bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white" : "bg-gray-200 text-black"}`}
+        />
         
       </div>
 

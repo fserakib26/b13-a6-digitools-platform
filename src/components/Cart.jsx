@@ -4,9 +4,18 @@ const Cart = ({carts, setCarts}) => {
 
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)
 
+  // Checkout Function
   const hangleCheckout = () =>{
     setCarts([])
   }
+
+  // Delete Function
+  const handleDelete = (item) => {
+    const filteredArray = carts.filter(d => d.id !== item.id)
+    console.log(filteredArray)
+    setCarts(filteredArray)
+  }
+
 
     console.log(carts);
   return (
@@ -44,7 +53,7 @@ const Cart = ({carts, setCarts}) => {
                   </div>
                 </div>
                 <div>
-                  <button className='text-red-500 bg-transparent btn'>Delete</button>
+                  <button onClick={()=> handleDelete(item)} className='text-red-500 bg-transparent btn'>Delete</button>
                 </div>
 
               </div>         
