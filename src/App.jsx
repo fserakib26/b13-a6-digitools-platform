@@ -4,6 +4,7 @@ import Banner from "./components/Banner"
 import Stats from "./components/Stats"
 import Tools from "./components/Tools"
 import Cart from "./components/Cart"
+import Steps from "./components/Steps"
 
 
 // const getTools = async () => {
@@ -48,6 +49,8 @@ function App() {
       {activeTab === "Products" && <Tools tools={tools} carts={carts} setCarts={setCarts}/>}
 
       {activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts}/>}
+
+      <Steps/>
 
       
     </>
