@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FcApproval } from "react-icons/fc"
+import { toast } from 'react-toastify'
 
 const ToolsCart = ({tool, carts, setCarts}) => {
     // States for tools Buy Now Button
@@ -8,6 +9,7 @@ const ToolsCart = ({tool, carts, setCarts}) => {
     const handleBuyNow = () => {
         setIsBuy(true)
         setCarts([...carts, tool])
+        toast.success("Added to Cart!")
     }
 
     const tagColors = {

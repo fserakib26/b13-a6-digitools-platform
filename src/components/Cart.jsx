@@ -1,4 +1,5 @@
 import React from 'react'
+import { toast } from 'react-toastify'
 
 const Cart = ({carts, setCarts}) => {
 
@@ -7,6 +8,7 @@ const Cart = ({carts, setCarts}) => {
   // Checkout Function
   const hangleCheckout = () =>{
     setCarts([])
+    toast.success("Completed! Thanks")
   }
 
   // Delete Function
@@ -14,6 +16,7 @@ const Cart = ({carts, setCarts}) => {
     const filteredArray = carts.filter(d => d.id !== item.id)
     console.log(filteredArray)
     setCarts(filteredArray)
+    toast.error("Item Deleted!")
   }
 
 
@@ -53,7 +56,7 @@ const Cart = ({carts, setCarts}) => {
                   </div>
                 </div>
                 <div>
-                  <button onClick={()=> handleDelete(item)} className='text-red-500 bg-transparent btn'>Delete</button>
+                  <button onClick={()=> handleDelete(item)} className='text-[#ff3980] bg-transparent font-bold'>Remove</button>
                 </div>
 
               </div>         

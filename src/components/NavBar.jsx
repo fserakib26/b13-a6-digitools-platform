@@ -34,7 +34,7 @@ const NavBar = () => {
             </div>
             <div className="navbar-end space-x-5">
                 <a><CiShoppingCart/></a>
-                <a>Login</a>
+                <button className='btn btn-outline btn-primary rounded-full'>Login</button>
                 <a className="btn bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">Get Started</a>
             </div>
         </div>
