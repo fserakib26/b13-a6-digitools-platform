@@ -142,21 +142,5 @@
       "Weekly updates"
     ],
     "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png"
-  },
-  {
-    "id": 10,
-    "name": "AI Prompt Pack Bundle",
-    "description": "Pre-built prompts for ChatGPT, Midjourney, and AI tools.",
-    "price": 19,
-    "period": "one-time",
-    "tag": "trending",
-    "tagType": "popular",
-    "features": [
-      "1000+ prompts",
-      "Multiple categories",
-      "Ready to use",
-      "Regular updates"
-    ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712035.png"
   }
 ]

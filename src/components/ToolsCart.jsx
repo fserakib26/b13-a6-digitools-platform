@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
 import { FcApproval } from "react-icons/fc"
 
-const ToolsCart = ({tool}) => {
+const ToolsCart = ({tool, carts, setCarts}) => {
     // States for tools Buy Now Button
     const[isBuy, setIsBuy] = useState(false)
+
+    const handleBuyNow = () => {
+        setIsBuy(true)
+        setCarts([...carts, tool])
+    }
 
     const tagColors = {
     "best seller": "bg-[#fef3c6] text-[#bb4d00]",
@@ -60,7 +65,7 @@ const ToolsCart = ({tool}) => {
         {/* button */}
         
         <button
-        onClick={() => setIsBuy(true)}
+        onClick={handleBuyNow}
         className={`w-full py-2 rounded-full font-semibold text-white flex items-center justify-center gap-2 
         ${isBuy ? "bg-green-500" : "bg-gradient-to-r from-[#4f39f6] to-[#9514fa]"}`}
         >
