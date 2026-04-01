@@ -23,9 +23,9 @@ const Steps = () => {
                 <div className='w-20 h-20 mb-4 rounded-full p-4 bg-[#4f39f625]'>
                     <img className='w-full h-full' src="/assets/package.png" alt="" />
                 </div>
-                <h2 className='font-bold text-2xl mb-4'>Create Account</h2>
-                <p>Sign up for free in seconds. No credit card</p>
-                <p>required to get started.</p>
+                <h2 className='font-bold text-2xl mb-4'>Choose Products</h2>
+                <p>Browse our catalog and select the tools</p>
+                <p>that fit your needs.</p>
             </div>
 
             <div className='relative border-2 border-gray-300 shadow rounded-2xl flex flex-col justify-center items-center'>
@@ -33,9 +33,9 @@ const Steps = () => {
                 <div className='w-20 h-20 mb-4 rounded-full p-4 bg-[#4f39f625]'>
                     <img className='w-full h-full' src="/assets/rocket.png" alt="" />
                 </div>
-                <h2 className='font-bold text-2xl mb-4'>Create Account</h2>
-                <p>Sign up for free in seconds. No credit card</p>
-                <p>required to get started.</p>
+                <h2 className='font-bold text-2xl mb-4'>Start Creating</h2>
+                <p>Download and start using your premium </p>
+                <p>tools immediately.</p>
             </div>
             
             

@@ -6,15 +6,9 @@ import Tools from "./components/Tools"
 import Cart from "./components/Cart"
 import Steps from "./components/Steps"
 import PricingSection from "./components/PricingSection"
+import FooterTop from "./components/FooterTop"
 import Footer from "./components/Footer"
 
-
-// const getTools = async () => {
-//   const res = await fetch("/tools.json")
-//   return res.json()
-// }
-
-// const toolPromise = getTools()
 
 function App() {
    const [tools, setTools] = useState([])
@@ -55,6 +49,8 @@ function App() {
       <Steps/>
 
       <PricingSection/>
+
+      <FooterTop/>
 
       <Footer/>
 

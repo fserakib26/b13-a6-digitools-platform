@@ -3,8 +3,8 @@ import { CiShoppingCart } from 'react-icons/ci'
 
 const NavBar = () => {
   return (
-    <div className="max-w-7xl mx-auto">
-        <div className="navbar">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="navbar py-2">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,7 +21,7 @@ const NavBar = () => {
 
                 </ul>
                 </div>
-                <a className="text-4xl font-bold bg-gradient-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">DigiTools</a>
+                <a className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">DigiTools</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -32,10 +32,10 @@ const NavBar = () => {
                     <li><a>FAQ</a></li>
                 </ul>
             </div>
-            <div className="navbar-end space-x-5">
-                <a><CiShoppingCart/></a>
-                <button className='btn btn-outline btn-primary rounded-full'>Login</button>
-                <a className="btn bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">Get Started</a>
+            <div className="navbar-end space-x-2 sm:space-x-4">
+                <a><CiShoppingCart className="text-xl sm:text-2xl cursor-pointer"/></a>
+                <button className='hidden sm:inline-flex btn btn-outline btn-primary rounded-full'>Login</button>
+                <a className="btn px-4 sm:px-6 bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white text-sm sm:text-base">Get Started</a>
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@ const Stats = () => {
   return (
     <>
     <div className='bg-gradient-to-r from-[#4f39f6] to-[#9514fa] p-10  text-neutral-200'>
-        <div className='flex justify-around max-w-7xl mx-auto'>
+        <div className='flex-col text-center space-y-15 lg:flex-row flex justify-around max-w-7xl mx-auto'>
             <div className=''>
                 <h2 className='text-7xl text-white'>50K+</h2>
                 <p className='text-3xl'>Active Users</p>
